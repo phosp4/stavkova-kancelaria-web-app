@@ -1,8 +1,27 @@
-# React + Vite
+# Stávkova Kancelária Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project provides a web user interface to the Stavkova Kancelaria app originally created by [Lukyjex](https://github.com/Lukyjex) and [malikstefan77xd](https://github.com/malikstefan77xd). The project was made for the _Application Programming in Java_ class (PAZ1c) at Pavol Jozef Šafárik University in Košice.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- TypeScript
+- JavaScript
+- React
+- npm
+- REST API
+
+## Project Structure
+
+- `src/main.jsx`: Entry point of the React application, sets up routing.
+- `src/Navbar.tsx`: Contains the navigation bar component.
+- `src/user/UsersTable.tsx`: Component for displaying a table of users.
+- `src/user/UserEdit.tsx`: Component for editing user details.
+- `src/sportevent/SportEventTable.tsx`: Component for displaying a table of sport events.
+- `src/sportevent/SportEventEdit.tsx`: Component for editing sport events.
+- `src/ticket/TicketTable.tsx`: Component for displaying a table of tickets.
+- `src/ticket/TicketEdit.tsx`: Component for editing ticket details.
+- `src/WelcomePage.tsx`: Component for the welcome page.
+
+## License
+
+This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for details.
