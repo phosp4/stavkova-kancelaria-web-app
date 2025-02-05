@@ -6,8 +6,9 @@ This project provides a web user interface to the Stavkova Kancelaria app origin
 
 - TypeScript
 - JavaScript
-- React
+- React, MUI (Material-UI)
 - npm
+- Vite
 - REST API
 
 ## Project Structure
